@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+
+    <title>Demagog kvíz</title>
+
+    <style type='text/css'>
+        div#tlacitka button, button#btn-dalsi {
+            font-size: 1.3em;
+            text-transform: capitalize;
+            margin-right: .5em;
+            margin-bottom: .5em;
+        }
+        div#tlacitka button.spravne {
+            border: 3px solid green;
+            background-color: lightgreen;
+        }
+        div#tlacitka button.spatne {
+            border: 3px solid red;
+            background-color: salmon;
+        }
+        div#zkratky, div#paticka {
+            font-size: .9em;
+        }
+    </style>
+</head>
+
+<body>
+<!--
+TODO:
+- 12515 - opravit lokalni zdroje u obrazku
+- co kdyz dojdou otazky? se to zacykli
+-->
+
+<div id='kviz'>
+    <div id='nastaveni'>
+        <input type='checkbox' id='ukaz-autora' checked='checked' /> <label for='ukaz-autora'>Ukazuj autory výroků</label><br />
+        <input type='checkbox' id='jen-pravda-nepravda' checked='checked' /> <label for='jen-pravda-nepravda'>Jen pravdivé a nepravdivé výroky</label><br />
+        
+        <!--<input type='checkbox' id='jen-vyroky-od' /> <label for='jen-vyroky-od'>Jen výroky od <select id='jen-strana'></select> <select id='jen-osoba'></select></label>-->
+
+        <hr />
+    </div>
+
+    <div id='vyrok'></div>
+
+    <div id='zkratky'>
+        <hr />
+        Můžeš používat klávesový zkratky.
+        <ul>
+            <li><code>p</code> pro pravdu,</li>
+            <li><code>n</code> pro nepravdu,</li>
+            <li><code>z</code> pro zavádějící,</li>
+            <li><code>u</code> pro neověřitelné,</li>
+            <li><code>d</code> pro přeskočení otázky</li>
+        </ul>
+
+    </div>
+
+    <div id='paticka'>
+        <hr />
+        Z dlouhé chvíle sepsal <a href='https://twitter.com/kondrej'>@kondrej</a>. 
+    </div>
+</div>
+
+<script type='text/javascript' src='kviz.js'></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98368126-3"></script>
+<script>
+if (window.location.hostname !== 'localhost') {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+    gtag('config', 'UA-98368126-3');
+}
+</script>
+
+</body>
+</html>
