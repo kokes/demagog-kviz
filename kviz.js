@@ -23,6 +23,10 @@ function loadData(callback) {
 				}
 			})
 
+		if (document.getElementById('nacitani')) {
+			document.getElementById('nacitani').remove();
+		}
+
 		break;
 	}
 }
@@ -50,8 +54,8 @@ function showStatement() {
 	// 	return showStatement();
 	// }
 
+	// preskocit videne vyroky
 	if (seen.has(st['id'])) {
-		console.log('preskakuji vyrok, byl viden');
 		return showStatement();
 	}
 	seen.add(st['id']);
