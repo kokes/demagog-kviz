@@ -6,7 +6,7 @@ function wipeElement(el) {
 
 function loadData(callback) {
 	while (true) {
-		const nid = Math.floor(Math.random()*100);
+		const nid = Math.floor(Math.random()*256);
 		if (have.has(nid)) {
 			continue;
 		}
@@ -14,7 +14,7 @@ function loadData(callback) {
 		fetch(`data/nahodne/${nid}.json`)
 			.then((x) => x.json())
 			.then(data => {
-				stmts = stmts.concat(data);
+				stmts = stmts.concat(data); // TODO: shuffle
 				console.log(`mame ${stmts.length}`);
 				console.log(`nahrano ${data.length} vyroku`);
 				have.add(nid);
@@ -76,8 +76,15 @@ function showStatement() {
 		vr.appendChild(aut);
 	}
 
+	const porad = document.createElement('div');
+	porad.setAttribute('id', 'porad');
+	porad.innerHTML = `<strong>Pořad:</strong> ${st['porad']['nazev']} (${st['porad']['medium']}, ${st['porad']['moderator']})<br /><strong>Datum:</strong> ${st['porad']['datum']}`;
+
+	vr.appendChild(porad);
+
 	const txt = document.createElement('div');
-	txt.innerHTML = st['vyrok'];
+	txt.setAttribute('id', 'vyrok-text');
+	txt.innerHTML = `<strong>Výrok</strong>:<br /> ${st['vyrok']}`;
 	vr.appendChild(txt);
 	
 	vr.appendChild(function() {
@@ -142,7 +149,7 @@ loadData(showStatement);
 let seen = new Set();
 let ls = localStorage.getItem('seen');
 if (ls) {
-	seen = new Set(ls.split(',').map((x) => parseInt(x, 10)))
+	seen = new Set(ls.split(','))
 }
 
 document.addEventListener('keypress', function(e) {
