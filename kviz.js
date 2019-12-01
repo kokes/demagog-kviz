@@ -78,7 +78,18 @@ function showStatement() {
 
 	const porad = document.createElement('div');
 	porad.setAttribute('id', 'porad');
-	porad.innerHTML = `<strong>Pořad:</strong> ${st['porad']['nazev']} (${st['porad']['medium']}, ${st['porad']['moderator']})<br /><strong>Datum:</strong> ${st['porad']['datum']}`;
+	
+	const lnk = document.createElement('a');
+	lnk.innerText = st['porad']['medium'];
+	lnk.setAttribute('href', st['porad']['url']);
+	porad.innerHTML = `<strong>Pořad: </strong>`;
+	porad.appendChild(lnk);
+
+	const datum = document.createElement('div');
+	datum.innerHTML = `<br /><strong>Datum:</strong> ${st['porad']['datum']}`;
+
+	porad.appendChild(datum);
+	
 
 	vr.appendChild(porad);
 

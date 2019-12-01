@@ -1,62 +1,15 @@
 {
-  "Starostové a nezávislí": [
-    "Jan Farský",
-    "Jan Horník",
-    "Jiří Švec",
-    "Lukáš Vlček",
-    "Marek Pieter",
-    "Martin Maleček",
-    "Miroslav Adámek",
-    "Petr Gazdík",
-    "Stanislav Polčák"
-  ],
-  "ANO 2011": [
-    "Adriana Krnáčová",
-    "Andrej Babiš",
-    "Antonín Prachař",
-    "Bohumil  Šimek",
-    "Dita Charanzová",
-    "Helena Válková",
-    "Jan Volný",
-    "Jana Lorencová",
-    "Jaroslav Bžoch",
-    "Jaroslav Faltýnek",
-    "Jaroslav Větrovský",
-    "Jaroslava Pokorná Jermanová",
-    "Jitka  Volfová",
-    "Jiří Zlatuška",
-    "Josef Pavlík",
-    "Karla Šlechtová",
-    "Margita Balaštíková",
-    "Martin Komárek",
-    "Martin Stropnický",
-    "Matěj Fichtner",
-    "Milan Feranec",
-    "Pavel Telička",
-    "Pavel Šrámek",
-    "Petr Vokřál",
-    "Radka Maxová",
-    "Robert Pelikán",
-    "Tomáš Macura",
-    "Zdeněk Soukup"
-  ],
-  "Česká pirátská strana": [
-    "Ivan Bartoš",
-    "Jakub Michálek",
-    "Lukáš Černohorský",
-    "Mikuláš Ferjenčík"
-  ],
-  "Strana Zelených": [
-    "Jana Drápalová",
-    "Jaromír Baxa",
-    "Jiří Hlavenka",
-    "Lukáš Tůma",
-    "Matěj Stropnický",
-    "Ondřej Liška",
-    "Pavla Brady",
-    "Petr Štěpánek",
-    "Svatomír Mlčoch",
-    "Václav Láska"
+  "Strana práv občanů ": [
+    "Bohumil Trávník",
+    "Bohuslav Borovanský",
+    "František Čech",
+    "Jan Veleba",
+    "Lubomír Nečas",
+    "Martin Schubert",
+    "Miloš Zeman",
+    "Vladimír Dryml",
+    "Vratislav Mynář",
+    "Zakaría Nemrah"
   ],
   "Komunistická strana Čech a Moravy": [
     "Alexander Černý",
@@ -74,6 +27,7 @@
     "Kateřina Konečná",
     "Marie Nedvědová",
     "Marta Semelová",
+    "Martin Juroška",
     "Milan Plodík",
     "Miloslav Ransdorf",
     "Miloslava Vostrá",
@@ -85,61 +39,85 @@
     "Petr Braný",
     "Petr Šimůnek",
     "Soňa Marková",
+    "Stanislav Grospič",
     "Stanislav Mackovík",
     "Vojtěch Adam",
     "Vojtěch Filip",
-    "Václav  Štekl",
+    "Václav Štekl",
     "Zdeněk Ondráček"
   ],
-  "Nezařazení": [
-    "Alena Dernerová",
-    "Aleš  Brichta",
-    "Aleš Roztočil",
-    "Diskutéři Novinky.cz",
-    "Eliška Wagnerová",
-    "Hynek Kmoníček",
-    "Ivo Petřík",
-    "Jan Kohout",
-    "Jan Kubice",
-    "Jana Volfová",
-    "Jitka Seitlová",
-    "Jiří  Janeček",
-    "Jiří  Vyvadil",
-    "Jiří Drahoš",
-    "Jiří Ovčáček",
-    "Jiří Rusnok",
-    "John F. Kennedy",
-    "Luboš  Měkota",
-    "Marek Hilšer",
-    "Martin Bursík",
-    "Martin Holcát",
-    "Martin Konvička",
-    "Martin Pecina",
-    "Martin Schulz",
-    "Michaela Jílková",
-    "Michal Horáček",
-    "Milan Šarapatka",
-    "Milouš Jakeš",
-    "Mirek Topolánek",
-    "Miroslav  Zámečník",
-    "Miroslav Toman",
-    "Pavel Fischer",
-    "Petr Mlsna",
-    "Vladimir Putin",
-    "Vratislav Kulhánek",
-    "Václav Hampl",
-    "Václav Klaus",
-    "Václav Moravec",
-    "Zdeněk Papoušek",
-    "Zdeněk Schwarz",
-    "Zdeněk Žák",
-    "Zdeňka Hamousová",
-    "Zuzana Baudyšová",
-    "Štefan Füle"
+  "Česká strana sociálně demokratická": [
+    "Adam Rykala",
+    "Alena Gajdůšková",
+    "Antonín Seďa",
+    "Antonín Staněk",
+    "Bohuslav Sobotka",
+    "Dagmar Waicová",
+    "Dana Váhalová",
+    "František Bublan",
+    "Ivan Ohlídal",
+    "Jakub Landovský",
+    "Jan Chvojka",
+    "Jan Hamáček",
+    "Jan Keller",
+    "Jan Látka",
+    "Jan Mládek",
+    "Jana Vaňhová",
+    "Jaroslav Malý",
+    "Jaroslav Zavadil",
+    "Jeroným Tejc",
+    "Jiří Běhounek",
+    "Jiří Dienstbier",
+    "Jiří Petrů",
+    "Jiří Rozbořil",
+    "Jiří Srba",
+    "Jiří Zimola",
+    "Josef Novotný",
+    "Josef Řihák",
+    "Karel Doležal",
+    "Kateřina Valachová",
+    "Ladislav Velebný",
+    "Lenka Kadlecová",
+    "Lubomír Franc",
+    "Lubomír Zaorálek",
+    "Lumír Palyza",
+    "Marcel Chládek",
+    "Marie Benešová",
+    "Martin Netolický",
+    "Martin Zrzavecký",
+    "Michaela Marksová",
+    "Michal Hašek",
+    "Michal Šmarda",
+    "Milan Chovanec",
+    "Milan Urban",
+    "Milan Štěch",
+    "Miloslav Ludvík",
+    "Miroslav Antl",
+    "Miroslav Novák",
+    "Miroslav Poche",
+    "Oliver Pospíšil",
+    "Pavel Poc",
+    "Pavel Svoboda",
+    "Petr Navrátil",
+    "Richard Falbr",
+    "Roman Onderka",
+    "Stanislav Gross",
+    "Stanislav Huml",
+    "Stanislav Mišák",
+    "Svatopluk Němeček",
+    "Tomáš Petříček",
+    "Vladimír Špidla",
+    "Vladimíra Lesenská",
+    "Vlasta Bohdalová",
+    "Zdeněk Škromach",
+    "Zuzana Brzobohatá"
+  ],
+  "Starostové pro Prahu": [
+    "Jiří Nouza"
   ],
   "Občanská demokratická strana": [
     "Alexandr Vondra",
-    "Alexandra  Udženija",
+    "Alexandra Udženija",
     "Andrea Češková",
     "Bohuslav Svoboda",
     "Boris Šťastný",
@@ -159,10 +137,13 @@
     "Lenka Kohoutová",
     "Libor Lukáš",
     "Marek Benda",
+    "Markéta Vaňková",
     "Markéta Záleská",
     "Martin Baxa",
     "Martin Kuba",
+    "Martin Kupka",
     "Martin Major",
+    "Martin Červíček",
     "Martin Štěpánek",
     "Milan Cabrnoch",
     "Miloslav Plass",
@@ -174,9 +155,9 @@
     "Pavel Bém",
     "Pavel Suchánek",
     "Pavel Žáček",
-    "Petr  Nečas",
     "Petr Bendl",
     "Petr Fiala",
+    "Petr Nečas",
     "Petr Tupec",
     "Petr Šindelář",
     "Přemysl Sobotka",
@@ -187,87 +168,11 @@
     "Vladislav Raška",
     "Václav Mencl",
     "Zbyněk Stanjura",
-    "Zdeněk  Geist"
+    "Zdeněk Geist",
+    "Zdeněk Nytra"
   ],
-  "Strana práv občanů ": [
-    "Bohumil Trávník",
-    "Bohuslav Borovanský",
-    "František Čech",
-    "František Čuba",
-    "Jan Veleba",
-    "Lubomír Nečas",
-    "Martin Schubert",
-    "Miloš Zeman",
-    "Vladimír Dryml",
-    "Vratislav Mynář"
-  ],
-  "Věci veřejné": [
-    "Kateřina  Klasnová",
-    "Michal Babák",
-    "Petr Skokan",
-    "Radek John",
-    "Vít Bárta"
-  ],
-  "Česká strana sociálně demokratická": [
-    "Adam Rykala",
-    "Alena Gajdůšková",
-    "Antonín Seďa",
-    "Antonín Staněk",
-    "Bohuslav Sobotka",
-    "Dagmar Waicová",
-    "Dana Váhalová",
-    "František Bublan",
-    "Ivan Ohlídal",
-    "Jan  Mládek",
-    "Jan Chvojka",
-    "Jan Keller",
-    "Jan Látka",
-    "Jana Vaňhová",
-    "Jaroslav Malý",
-    "Jaroslav Zavadil",
-    "Jeroným Tejc",
-    "Jiří Běhounek",
-    "Jiří Dienstbier",
-    "Jiří Petrů",
-    "Jiří Rozbořil",
-    "Jiří Zimola",
-    "Josef  Řihák",
-    "Josef Novotný",
-    "Karel  Doležal",
-    "Kateřina Valachová",
-    "Ladislav  Velebný",
-    "Lenka Kadlecová",
-    "Lubomír Franc",
-    "Lubomír Zaorálek",
-    "Lumír  Palyza",
-    "Marcel Chládek",
-    "Marie Benešová",
-    "Martin Netolický",
-    "Martin Zrzavecký",
-    "Michaela Marksová",
-    "Michal Hašek",
-    "Milan Chovanec",
-    "Milan Urban",
-    "Milan Štěch",
-    "Miloslav Ludvík",
-    "Miroslav Antl",
-    "Miroslav Novák",
-    "Miroslav Poche",
-    "Pavel Poc",
-    "Pavel Svoboda",
-    "Pavlína Nytrová",
-    "Petr  Navrátil",
-    "Richard Falbr",
-    "Roman Onderka",
-    "Stanislav Gross",
-    "Stanislav Huml",
-    "Stanislav Mišák",
-    "Svatopluk Němeček",
-    "Vladimír Špidla",
-    "Vladimíra Lesenská",
-    "Vlasta Bohdalová",
-    "Zdeněk Škromach",
-    "Zuzana Brzobohatá"
+  "Starostové pro Liberecký kraj": [
+    "Martin Půta"
   ],
   "TOP 09": [
     "Alena Hanáková",
@@ -286,7 +191,7 @@
     "Jiří Pospíšil",
     "Karel Schwarzenberg",
     "Karola Haasová",
-    "Ladislav  Jirků",
+    "Ladislav Jirků",
     "Leoš Heger",
     "Libor Honzárek",
     "Ludmila Müllerová",
@@ -300,38 +205,334 @@
     "Petr Měsíc",
     "Rudolf Cogan",
     "Tomáš Hudeček",
+    "Vlastimil Válek",
     "Vlastislav Navrátil",
     "Zdeněk Bezecný"
   ],
-  "Úsvit přímé demokracie Tomia Okamury": [
-    "Jana Hnyková",
-    "Klára  Samková",
-    "Marek Černoch",
-    "Tomáš Sýkora"
+  "": [
+    "Evžen Tošenovský",
+    "Jan Fischer",
+    "Jan Veleba",
+    "Jiří Payne",
+    "Jiří Růžička",
+    "Libor Rouček",
+    "Lukáš Wagenknecht",
+    "Oldřich Bubeníček",
+    "Pavel Dungl",
+    "Robert Fico",
+    "Rostislav Vyzula",
+    "Táňa Fischerová",
+    "Vladimír Bärtl",
+    "Vladimír Dlouhý",
+    "Vladimír Franz",
+    "Zdeněk Bergman"
   ],
-  "Křesťanská a demokratická unie - Československá strana lidová": [
+  "ANO 2011": [
+    "Adriana Krnáčová",
+    "Andrej Babiš",
+    "Antonín Prachař",
+    "Bohumil Šimek",
+    "Dita Charanzová",
+    "Helena Válková",
+    "Jan Kněžínek",
+    "Jan Volný",
+    "Jana Lorencová",
+    "Jaroslav Bžoch",
+    "Jaroslav Faltýnek",
+    "Jaroslav Větrovský",
+    "Jaroslava Pokorná Jermanová",
+    "Jitka Volfová",
+    "Jiří Zlatuška",
+    "Josef Pavlík",
+    "Karel Havlíček",
+    "Karla Šlechtová",
+    "Margita Balaštíková",
+    "Martin Komárek",
+    "Martin Stropnický",
+    "Matěj Fichtner",
+    "Milan Feranec",
+    "Pavel Telička",
+    "Pavel Šrámek",
+    "Petr Stuchlík",
+    "Petr Vokřál",
+    "Radka Maxová",
+    "Richard Brabec",
+    "Robert Pelikán",
+    "Robert Plaga",
+    "Tomáš Macura",
+    "Zdeněk Soukup"
+  ],
+  "Strana Zelených": [
+    "Jana Drápalová",
+    "Jaromír Baxa",
+    "Jiří Hlavenka",
+    "Lukáš Tůma",
+    "Matěj Stropnický",
+    "Ondřej Liška",
+    "Ondřej Mirovský",
+    "Pavla Brady",
+    "Petr Štěpánek",
+    "Svatomír Mlčoch",
+    "Václav Láska"
+  ],
+  "KDU-ČSL": [
     "Anna Hubáčková",
     "Daniel Herman",
-    "Jan  Březina",
     "Jan Bartošek",
+    "Jan Březina",
     "Jaromír Kalina",
-    "Jaroslav  Klaška",
-    "Jiří  Mihola",
+    "Jaroslav Klaška",
+    "Jiří Mihola",
     "Jiří Čunek",
     "Klára Liptáková",
-    "Ladislav  Šnevajs",
+    "Ladislav Šnevajs",
+    "Marek Výborný",
     "Marian Jurečka",
     "Pavel Botek",
     "Pavel Bělobrádek",
     "Pavel Svoboda",
     "Pavel Talíř",
-    "Petr  Náhlík",
+    "Petr Hladík",
+    "Petr Náhlík",
     "Petr Šilar",
     "Roman Celý",
-    "Stanislav  Juránek",
-    "Vít  Slováček",
+    "Stanislav Juránek",
     "Vít Kaňkovský",
+    "Vít Slováček",
+    "Zbyněk Pražák",
     "Zdeněk Dvořák",
     "Zuzana Roithová"
+  ],
+  "Nezařazení": [
+    "Alena Dernerová",
+    "Aleš Brichta",
+    "Aleš Roztočil",
+    "Eliška Wagnerová",
+    "Hynek Kmoníček",
+    "Ivo Petřík",
+    "Jan Kohout",
+    "Jan Kubice",
+    "Jitka Seitlová",
+    "Jiří Drahoš",
+    "Jiří Ovčáček",
+    "Jiří Rusnok",
+    "John F. Kennedy",
+    "Luboš Měkota",
+    "Marek Hilšer",
+    "Martin Bursík",
+    "Martin Holcát",
+    "Martin Konvička",
+    "Martin Pecina",
+    "Martin Schulz",
+    "Michaela Jílková",
+    "Michal Horáček",
+    "Milan Šarapatka",
+    "Milouš Jakeš",
+    "Mirek Topolánek",
+    "Miroslav Toman",
+    "Miroslav Zámečník",
+    "Pavel Fischer",
+    "Petr Mlsna",
+    "Vladimir Putin",
+    "Vratislav Kulhánek",
+    "Václav Hampl",
+    "Václav Klaus",
+    "Václav Moravec",
+    "Zdeněk Papoušek",
+    "Zdeněk Schwarz",
+    "Zdeněk Žák",
+    "Zdeňka Hamousová",
+    "Zuzana Baudyšová",
+    "Štefan Füle"
+  ],
+  "Svoboda a přímá demokracie": [
+    "Hynek Beran",
+    "Ivan David",
+    "Ivan Fencl",
+    "Jaroslav Holík",
+    "Karla Maříková",
+    "Radek Koten",
+    "Radim Fiala",
+    "Tomio Okamura",
+    "Václav Kubín"
+  ],
+  "Realisté": [
+    "Jiří Hynek",
+    "Petr Robejšek"
+  ],
+  "Česká pirátská strana": [
+    "David Witosz",
+    "Ivan Bartoš",
+    "Jakub Michálek",
+    "Jan Lipavský",
+    "Lukáš Černohorský",
+    "Marcel Kolaja",
+    "Mikuláš Ferjenčík",
+    "Tomáš Koláčný",
+    "Zdeněk Hřib"
+  ],
+  "Starostové a nezávislí": [
+    "Jan Farský",
+    "Jan Horník",
+    "Jiří Jureček",
+    "Lukáš Vlček",
+    "Marek Pieter",
+    "Martin Maleček",
+    "Miroslav Adámek",
+    "Petr Gazdík",
+    "Petra Quittová",
+    "Stanislav Polčák"
+  ],
+  "Nezávislí": [
+    "Andréa Komárková",
+    "Jana Zwyrtek Hamplová",
+    "Lenka Bártlová",
+    "Liana Janáčková",
+    "Patrik Hujdus"
+  ],
+  "Věci veřejné": [
+    "Kateřina Klasnová",
+    "Michal Babák",
+    "Petr Skokan",
+    "Radek John",
+    "Vít Bárta"
+  ],
+  "Hlavu vzhůru! volební blok": [
+    "Jana Bobošíková"
+  ],
+  "Strana svobodných občanů": [
+    "Jiří Payne",
+    "Petr Mach",
+    "Vít Jedlička"
+  ],
+  "Rozumní": [
+    "Petr Hannig"
+  ],
+  "Žít Brno": [
+    "Barbora Antonová",
+    "Matěj Hollan"
+  ],
+  "Změna pro Vysočinu": [
+    "Zdeněk Kopecký"
+  ],
+  "Dělnická strana sociální spravedlnosti": [
+    "Petr Kotáb",
+    "Tomáš Vandas"
+  ],
+  "Ostravak": [
+    "Lukáš Semerák"
+  ],
+  "Úsvit přímé demokracie Tomia Okamury": [
+    "Jana Hnyková",
+    "Klára Samková",
+    "Marek Černoch",
+    "Tomáš Sýkora"
+  ],
+  "Strana soukromníků České republiky": [
+    "Ivo Valenta",
+    "Rostislav Senjuk"
+  ],
+  "Aktiv Nezávislých Občanů": [
+    "Vladimír Stehlík"
+  ],
+  "LIDEM - Liberální demokraté": [
+    "Kamil Jankovský",
+    "Karolína Peake",
+    "Pavel Dobeš"
+  ],
+  "Národní socialisté - levice 21. století": [
+    "Jiří Paroubek",
+    "Jiří Šlégr",
+    "Tereza Bernardová"
+  ],
+  "Praha sobě": [
+    "Jan Čižinský"
+  ],
+  "Strana za nezávislost Spojeného království": [
+    "Nigel Farage"
+  ],
+  "Koruna Česká - monarchistická strana Čech, Moravy a Slezska": [
+    "Radim Špaček"
+  ],
+  "Změna pro Plzeň": [
+    "Martin Marek"
+  ],
+  "Pravá volba pro Plzeň": [
+    "Vladimír Duchek"
+  ],
+  "Severočeši.cz": [
+    "Jaroslav Doubrava"
+  ],
+  "Lepčí a čistá Ostrava": [
+    "Libuše Přikrylová"
+  ],
+  "Společně za Plzeň": [
+    "Petr Vaněk"
+  ],
+  "Jihočeši 2012": [
+    "Luboš Průša",
+    "Pavel Hroch"
+  ],
+  "Romská demokratická strana": [
+    "Miroslav Tancoš"
+  ],
+  "Strana zelených": [
+    "Jasna Flamiková",
+    "Jiří Čáslavka"
+  ],
+  "Koalice pro Pardubický kraj": [
+    "Roman Línek"
+  ],
+  "Klub angažovaných nestraníků": [
+    "Jiří Domlátil"
+  ],
+  "Občané 2011": [
+    "Ludvík Adámek"
+  ],
+  "Pro Jižní Čechy, Starostové a nezávislí": [
+    "Jiří Švec"
+  ],
+  "Volba pro! Teplice": [
+    "Jakub Mráček"
+  ],
+  "Pro sport a zdraví Teplice": [
+    "Michal Kasal"
+  ],
+  "Alternativa pro Občany": [
+    "Rudolf Vyčichla"
+  ],
+  "Volte Pravý blok (www.cibluka.net)": [
+    "Petr Cibulka"
+  ],
+  "Trikolóra hnutí občanů": [
+    "Václav Klaus mladší"
+  ],
+  "Nezařazení, Česká strana sociálně demokratická": [
+    "David Rath"
+  ],
+  "Koalice KDU-ČSL, SNK-ED a nezávislí kandidáti": [
+    "Miroslav Rovenský"
+  ],
+  "Změna": [
+    "Jan Korytář",
+    "Zuzana Kocumová"
+  ],
+  "Budoucnost pro Liberecký kraj": [
+    "Lidie Vajnerová"
+  ],
+  "Koalice pro Karlovarský kraj": [
+    "Marek Poledníček"
+  ],
+  "ProOlomouc": [
+    "Pavel Grasse"
+  ],
+  "Občané pro Olomouc": [
+    "Dominika Kovaříková"
+  ],
+  "Hnutí nezávislých pro harmonický rozvoj měst a obcí": [
+    "Josef Hora"
+  ],
+  "Hnutí pro Prahu 11": [
+    "Ladislav Kos"
   ]
 }
