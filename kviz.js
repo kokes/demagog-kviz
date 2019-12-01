@@ -4,28 +4,23 @@ function wipeElement(el) {
     }
 }
 
-function loadData(callback) {
+async function loadData() {
 	while (true) {
 		const nid = Math.floor(Math.random()*256);
 		if (have.has(nid)) {
 			continue;
 		}
-		
-		fetch(`data/nahodne/${nid}.json`)
-			.then((x) => x.json())
-			.then(data => {
-				stmts = stmts.concat(data); // TODO: shuffle
-				console.log(`mame ${stmts.length}`);
-				console.log(`nahrano ${data.length} vyroku`);
-				have.add(nid);
-				if (callback) {
-					callback();
-				}
-			})
 
 		if (document.getElementById('nacitani')) {
 			document.getElementById('nacitani').remove();
 		}
+		
+		return fetch(`data/nahodne/${nid}.json`)
+			.then((x) => x.json())
+			.then(data => {
+				have.add(nid);
+				return data;
+			})
 
 		break;
 	}
@@ -35,16 +30,11 @@ const onlyTrueUntrue = () => document.getElementById('jen-pravda-nepravda').chec
 const showAuthors = () => document.getElementById('ukaz-autora').checked;
 // const justSomeone = () => document.getElementById('jen-vyroky-od').checked;
 
-function showStatement() {
-	const st = stmts[0];
-	stmts = stmts.slice(1);
-
-	if (stmts.length === 0) {
-		console.log('dosly otazky'); // TODO: renderuj
-		return;
+async function showStatement() {
+	if (stmts.length < 15) {
+		stmts.push(...await loadData());
 	}
-
-	if (stmts.length < 15) { return loadData(showStatement); }
+	const st = stmts.pop();
 
 	if (onlyTrueUntrue() && (st.hodnoceni === 'zavádějící' || st.hodnoceni === 'neověřitelné')) {
 		return showStatement();
@@ -79,10 +69,17 @@ function showStatement() {
 	const porad = document.createElement('div');
 	porad.setAttribute('id', 'porad');
 	
-	const lnk = document.createElement('a');
-	lnk.innerText = st['porad']['medium'];
-	lnk.setAttribute('href', st['porad']['url']);
-	porad.innerHTML = `<strong>Pořad: </strong>`;
+	let lnk = null;
+	if (st['porad']['url']) {
+		lnk = document.createElement('a');
+		lnk.innerText = st['porad']['medium'];
+		lnk.setAttribute('href', st['porad']['url']);	
+	} else {
+		lnk = document.createElement('span');
+		lnk.innerText = st['porad']['medium'];
+	}
+	
+	porad.innerHTML = `<strong>Zdroj: </strong>`;
 	porad.appendChild(lnk);
 
 	const datum = document.createElement('div');
@@ -100,7 +97,8 @@ function showStatement() {
 	
 	vr.appendChild(function() {
 		let p = document.createElement('p');
-		p.innerHTML = `<small><a href='${st.odkaz}'>Odkaz na výrok na Demagog.cz</a></small>`;
+		const link = `https://demagog.cz/vyrok/${st.id}`
+		p.innerHTML = `<small><a href='${link}'>Odkaz na výrok na Demagog.cz</a></small>`;
 		return p;
 	}());
 
@@ -155,7 +153,7 @@ function showStatement() {
 
 let stmts = [];
 let have = new Set(); // what datasets we've downloaded
-loadData(showStatement);
+showStatement();
 
 let seen = new Set();
 let ls = localStorage.getItem('seen');

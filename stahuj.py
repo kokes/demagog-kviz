@@ -96,7 +96,7 @@ if __name__ == '__main__':
                     'strana': strana,
                     'vyrok': statement['content'],
                     'oduvodneni': statement['assessment']['explanationHtml'],
-                    'hodnoceni': statement['assessment']['veracity']['name'],
+                    'hodnoceni': statement['assessment']['veracity']['name'].lower(),
                     'porad': {
                         'datum': statement['source']['releasedAt'],
                         'medium': statement['source']['medium']['name'],
